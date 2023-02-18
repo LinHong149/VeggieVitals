@@ -6,6 +6,7 @@ import mushroom from "../../assets/mushroom.png"
 import avocado from "../../assets/avocado.png"
 import asparagus from "../../assets/asparagus.png"
 import broccoli from "../../assets/broccoli.png"
+import tomato from "../../assets/tomato.png"
 
 import {
   Container, 
@@ -54,8 +55,8 @@ const ingredients = () => {
         <Text>TREEEE</Text>
         </Sub>
         <Sub>
-          <Image src={Potato} alt=""/>
-          <Text>POTAAAAAAATO</Text>
+          <Image src={tomato} alt=""/>
+          <Text>TOESSSS</Text>
         </Sub>
       </SubContainer>
     </Container>
