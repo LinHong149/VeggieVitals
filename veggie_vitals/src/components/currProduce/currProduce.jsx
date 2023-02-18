@@ -21,25 +21,20 @@ const currProduce = () => {
       <CurrentDescription>
         <CurrentDescriptionRow>
           <CurrentTopic>Temperature</CurrentTopic>
-          <CurrentStats>##</CurrentStats>
+          <CurrentTopic>Temperature</CurrentTopic>
         </CurrentDescriptionRow>
         <CurrentDescriptionLine />
         <CurrentDescriptionRow>
           <CurrentTopic>Temperature</CurrentTopic>
-          <CurrentStats>##</CurrentStats>
+          <CurrentTopic>Temperature</CurrentTopic>
         </CurrentDescriptionRow>
         <CurrentDescriptionLine />
         <CurrentDescriptionRow>
           <CurrentTopic>Temperature</CurrentTopic>
-          <CurrentStats>##</CurrentStats>
-        </CurrentDescriptionRow>
-        <CurrentDescriptionLine />
-        <CurrentDescriptionRow>
           <CurrentTopic>Temperature</CurrentTopic>
-          <CurrentStats>##</CurrentStats>
         </CurrentDescriptionRow>
-        <CurrentButton>Generate Recipe</CurrentButton>
       </CurrentDescription>
+      <CurrentButton>Generate Recipe</CurrentButton>
     </Current>
   )
 }

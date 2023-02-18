@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Nav = styled.div`
-    height: 8vh;
+    height: 10vh;
     // border: 1px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 5vw;
 `
 
 export const Logo = styled.img`

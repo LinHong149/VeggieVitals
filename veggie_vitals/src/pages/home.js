@@ -9,11 +9,14 @@ const home = () => {
   return (
     <div>
         <Nav/>
-        <CurrProduce/>
         <div
-        style={{boxShadow:"10px 10px #1E1515", width:'100px', height:'100px'}}>
-            <Filter/>
-            <Ingredients/>
+        style={{display:'flex', flexDirection: 'row', flexWrap: 'none', justifyContent: 'space-between'}}>
+            <CurrProduce/>
+            <div
+            style={{boxShadow:"-10px -10px #1E1515", display:'flex', flexDirection: 'row', flexWrap: 'none', borderTopLeftRadius: '30px'}}>
+                <Filter/>
+                <Ingredients/>
+            </div>
         </div>
     </div>
   )

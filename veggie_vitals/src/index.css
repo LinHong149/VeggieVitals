@@ -5,4 +5,7 @@ body {
   background-color: #261B1C;
   color: #E2D5CA;
   font-family: 'Lexend', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
