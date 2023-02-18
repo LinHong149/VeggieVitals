@@ -3,6 +3,7 @@ import Nav from '../components/nav/nav'
 import Filter from '../components/filter/filter'
 import CurrProduce from '../components/currProduce/currProduce'
 import Ingredients from '../components/ingredients/ingredients'
+import Garden from '../components/garden/garden'
 
 
 const home = () => {
@@ -13,8 +14,9 @@ const home = () => {
         style={{display:'flex', flexDirection: 'row', flexWrap: 'none', justifyContent: 'space-between'}}>
             <CurrProduce/>
             <div
-            style={{boxShadow:"-4px -4px #1E1515", display:'flex', flexDirection: 'row', flexWrap: 'none', borderTopLeftRadius: '60px'}}>
-                <Filter/>
+            style={{boxShadow:"-4px -4px #1E1515", display:'flex', flexDirection: 'row', flexWrap: 'none', borderTopLeftRadius: '60px', alignItems: 'end'}}>
+                {/* <Filter/> */}
+                <Garden/>
                 <Ingredients/>
             </div>
         </div>
