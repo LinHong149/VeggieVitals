@@ -19,6 +19,7 @@ export const Language = styled.button`
     background: none;
     font-size: 1rem;
     height: 8vh;
+    color: #E2D5CA;
 `
 
 export const Container = styled.div`

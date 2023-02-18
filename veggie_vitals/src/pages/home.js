@@ -10,8 +10,11 @@ const home = () => {
     <div>
         <Nav/>
         <CurrProduce/>
-        <Filter/>
-        <Ingredients/>
+        <div
+        style={{boxShadow:"10px 10px #1E1515", width:'100px', height:'100px'}}>
+            <Filter/>
+            <Ingredients/>
+        </div>
     </div>
   )
 }

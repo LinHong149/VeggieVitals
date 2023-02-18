@@ -2,4 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #261B1C;
+  color: #E2D5CA;
+  font-family: 'Lexend', sans-serif;
 }
