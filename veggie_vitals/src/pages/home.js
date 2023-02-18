@@ -13,7 +13,7 @@ const home = () => {
         style={{display:'flex', flexDirection: 'row', flexWrap: 'none', justifyContent: 'space-between'}}>
             <CurrProduce/>
             <div
-            style={{boxShadow:"-10px -10px #1E1515", display:'flex', flexDirection: 'row', flexWrap: 'none', borderTopLeftRadius: '30px'}}>
+            style={{boxShadow:"-4px -4px #1E1515", display:'flex', flexDirection: 'row', flexWrap: 'none', borderTopLeftRadius: '60px'}}>
                 <Filter/>
                 <Ingredients/>
             </div>
