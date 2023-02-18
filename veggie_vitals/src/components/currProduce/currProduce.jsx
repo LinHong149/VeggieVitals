@@ -9,6 +9,7 @@ import {
   CurrentDescriptionRow,
   CurrentTopic,
   CurrentStats,
+  Buttons,
   CurrentDescriptionLine,
   CurrentButton
 } from './currProduce.elements'
@@ -34,7 +35,10 @@ const currProduce = () => {
           <CurrentTopic>Temperature</CurrentTopic>
         </CurrentDescriptionRow>
       </CurrentDescription>
-      <CurrentButton>Generate Recipe</CurrentButton>
+      <Buttons>
+        <CurrentButton>Add to Garden</CurrentButton>
+        <CurrentButton>Forum</CurrentButton>
+      </Buttons>
     </Current>
   )
 }
