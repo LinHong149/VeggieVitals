@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const Nav = styled.div`
     height: 10vh;
@@ -39,7 +40,7 @@ export const SocialsLink = styled.div`
     align-items: center;
 `
 
-export const Link = styled.a`
+export const ForumLink = styled(Link)`
     border: none;
     background: none;
     font-size: 1rem;

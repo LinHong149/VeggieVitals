@@ -7,7 +7,7 @@ import {
     Language,
     Container,
     SocialsLink,
-    Link
+    ForumLink
 } from './nav.elements'
 
 const nav = () => {
@@ -16,7 +16,7 @@ const nav = () => {
         <Logo src={VeggieVitals} alt="" />
         <Container>
             <Language>Language</Language>
-            <Link>Forum</Link>
+            <ForumLink to="/forum">Forum</ForumLink>
         </Container>
     </Nav>
   )

@@ -47,4 +47,5 @@ export const Text = styled.p`
     height: 25%;
     font-size: 0.8rem;
     color: #C6B0AB;
+    text-align: center;
 `
