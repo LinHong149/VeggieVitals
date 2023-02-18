@@ -20,11 +20,16 @@ export const Language = styled.button`
     font-size: 1rem;
     height: 8vh;
     color: #E2D5CA;
+    // border: 1px solid green;
+    height: min-content;
+    margin: 0;
 `
 
 export const Container = styled.div`
     display: flex;
     gap: 12px;
+    align-items: center;
+    
 `
 
 export const SocialsLink = styled.div`
@@ -32,4 +37,15 @@ export const SocialsLink = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+`
+
+export const Link = styled.a`
+    border: none;
+    background: none;
+    font-size: 1rem;
+    height: 8vh;
+    color: #E2D5CA;
+    // border: 1px solid green;
+    height: min-content;
+    margin: 0;
 `
