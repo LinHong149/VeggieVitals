@@ -1,32 +1,34 @@
 import pfp_potato from "../../assets/pfp_potato.png"
 
 import {
+    Root,
     Container,
     Container2,
     ForumBox,
     Border,
-    Sub,
+    Discription,
+    Name,
     Image,
     Container3,
+    Profile,
     ForumButton
 } from './ForumSubmissions.elements'
 
 
 const ForumSubmissions = () => {
     return(
-        <div>   
+        <Root>   
             <ForumButton href="">Add to Forum</ForumButton>
             <Border>
-                <Container>
-                <Image src={pfp_potato} alt=""/>
-                </Container>
-                <Container3>
-                    <ForumBox>
-                    <p>HI</p>
-                    </ForumBox>
-                </Container3>
+                <Profile>
+                    <Image src={pfp_potato} alt=""/>
+                    <Container3>
+                        <Name>Sir Potaaaatos</Name>
+                        <Discription>I love potaaaaaaatos!!</Discription>
+                    </Container3>
+                </Profile>
             </Border>
-        </div>
+        </Root>
     )
 }
 export default ForumSubmissions
