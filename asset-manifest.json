@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/VeggieVitals/static/css/main.33c57361.css",
-    "main.js": "/VeggieVitals/static/js/main.be22cc0b.js",
+    "main.css": "/VeggieVitals/static/css/main.1199b8dc.css",
+    "main.js": "/VeggieVitals/static/js/main.5e12c9be.js",
     "static/js/787.1890c94b.chunk.js": "/VeggieVitals/static/js/787.1890c94b.chunk.js",
+    "static/media/brocco_bama.png": "/VeggieVitals/static/media/brocco_bama.072a42310e20a41e910f.png",
+    "static/media/pfp_woman.png": "/VeggieVitals/static/media/pfp_woman.e0883138ea6e16845bc6.png",
+    "static/media/pfp_potato.png": "/VeggieVitals/static/media/pfp_potato.09d61f7c6b1fe79b4d00.png",
+    "static/media/pfp_man.png": "/VeggieVitals/static/media/pfp_man.58ee0dc746d80c4246fd.png",
+    "static/media/mushroom.png": "/VeggieVitals/static/media/mushroom.54dd8add021a57fc42ed.png",
     "static/media/tomato.png": "/VeggieVitals/static/media/tomato.1875333b15480a58f4cf.png",
     "static/media/Potato.png": "/VeggieVitals/static/media/Potato.dbfb497448439ff85742.png",
-    "static/media/avocado.png": "/VeggieVitals/static/media/avocado.55e26f6fe0cb88366b3d.png",
-    "static/media/mushroom.png": "/VeggieVitals/static/media/mushroom.e66ab189bbce777d6472.png",
+    "static/media/pepper.png": "/VeggieVitals/static/media/pepper.f50d6249a552935e9b94.png",
+    "static/media/pfp_small.png": "/VeggieVitals/static/media/pfp_small.7e88bd6811928f6a1399.png",
+    "static/media/artichoke.png": "/VeggieVitals/static/media/artichoke.1aef17d0fedfe8a095b8.png",
+    "static/media/asparagus.png": "/VeggieVitals/static/media/asparagus.6bec2771b8d917bc7d55.png",
     "static/media/broccoli.png": "/VeggieVitals/static/media/broccoli.73ca1ffda5709381a5ad.png",
-    "static/media/artichoke.png": "/VeggieVitals/static/media/artichoke.bddf0f348eb183c78328.png",
-    "static/media/asparagus.png": "/VeggieVitals/static/media/asparagus.0c86eba58ea6bfe3d424.png",
     "static/media/onion.png": "/VeggieVitals/static/media/onion.9982ac5b161929ad23ec.png",
     "static/media/VeggieVitals.png": "/VeggieVitals/static/media/VeggieVitals.655e3cebd890f5de8993.png",
     "index.html": "/VeggieVitals/index.html",
-    "main.33c57361.css.map": "/VeggieVitals/static/css/main.33c57361.css.map",
-    "main.be22cc0b.js.map": "/VeggieVitals/static/js/main.be22cc0b.js.map",
+    "main.1199b8dc.css.map": "/VeggieVitals/static/css/main.1199b8dc.css.map",
+    "main.5e12c9be.js.map": "/VeggieVitals/static/js/main.5e12c9be.js.map",
     "787.1890c94b.chunk.js.map": "/VeggieVitals/static/js/787.1890c94b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33c57361.css",
-    "static/js/main.be22cc0b.js"
+    "static/css/main.1199b8dc.css",
+    "static/js/main.5e12c9be.js"
   ]
 }
