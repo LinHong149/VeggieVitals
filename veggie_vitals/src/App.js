@@ -9,10 +9,10 @@ function App() {
   return (
     <Router className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/forum" element={<Forum />} />
-        <Route path="/api" element={<API />} />
-        <Route path="/recipe" element={<Recipe />} />
+        <Route path="VeggieVitals/" element={<Home />} />
+        <Route path="VeggieVitals/forum" element={<Forum />} />
+        <Route path="VeggieVitals/api" element={<API />} />
+        <Route path="VeggieVitals/recipe" element={<Recipe />} />
       </Routes>
   </Router>
   );

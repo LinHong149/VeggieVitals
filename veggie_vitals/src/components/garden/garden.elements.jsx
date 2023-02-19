@@ -20,6 +20,7 @@ export const Title = styled.h3`
 
 export const ProduceList = styled.div`
     width: 100%;
+    position: block;
     display: flex;
     flex-direction: column;
     flex-wrap: none;
@@ -79,4 +80,23 @@ export const Delete = styled.button`
     align-items: center;
     margin: 0;
 
+`
+
+export const GenerateButton = styled.button`
+    width: 20vw;
+    // max-width: 400px;
+    background-color: transparent;
+    border: 2px solid #7B4E3B;
+    color: #7B4E3B;
+    border-radius: 15px;
+    max-height: 100px;
+    height: 8vh;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 30px;
+    :hover{
+        transition-duration: 0.5s;
+        background-color: #7B4E3B;
+        color: #181112;
+    }
 `
