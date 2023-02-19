@@ -8,7 +8,7 @@ import Garden from '../components/garden/garden'
 
 const home = () => {
   return (
-    <div style={{overflow:'hidden', height: '100vh', weight: '100vw'}} style={{overflow:'hidden'}}>
+    <div style={{overflow:'hidden', height: '100vh', weight: '100vw'}}>
         <Nav/>
         <div
         style={{display:'flex', flexDirection: 'row', flexWrap: 'none', justifyContent: 'space-between'}}>
