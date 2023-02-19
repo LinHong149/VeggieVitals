@@ -42,10 +42,10 @@ export default class garden extends React.Component {
     async fetchRecipe() {
         const requestOptions = {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json', "Authorization": "Bearer tok_dev_vCDxZcNBWH1V17xMV9UKtKeNj35yAYraS9ZPk7oC1sx4aqbswvt9JYbcx79wmBaF"  },
+            headers: { 'Content-Type': 'application/json', "Authorization": "Bearer tok_dev_HZanALUBPoA1HrToMNX1gUhgq1ZefRmYoS51wPRRxLKj2cc5yJAc3yVCc9GsHFAw"  },
             body: JSON.stringify({ 'name': 'world' })
         };
-        const response = await fetch('https://steph-and-ee.autocode.dev/veggie-vitals@dev/', requestOptions);
+        const response = await fetch('https://linhong.autocode.dev/veggie-vitals@dev/', requestOptions);
             // .then((response) => response.json())
             // .then((data) => {
             //     return data
