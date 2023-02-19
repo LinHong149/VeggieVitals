@@ -20,7 +20,7 @@ const garden = () => {
             <Produce>
                 <ProduceName>Veggie Name</ProduceName>
                 <Actions>
-                    <Forum>Forum</Forum>
+                    <Forum>See Forums</Forum>
                     <Delete><CgClose/></Delete>
                 </Actions>
             </Produce>

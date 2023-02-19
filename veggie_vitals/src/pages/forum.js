@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from '../components/nav/nav'
-import AddToForums from '../components/AddToForums/AddToForums'
+import ForumSubmissions from '../components/ForumSubmissions/ForumSubmissions'
 
 const forum = () => {
     return (
       <div>
         <Nav/>
-        <AddToForums/>
+        <ForumSubmissions/>
       </div>
     )
   }

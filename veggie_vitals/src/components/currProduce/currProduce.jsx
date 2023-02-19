@@ -9,9 +9,10 @@ import {
   CurrentDescriptionRow,
   CurrentTopic,
   CurrentStats,
-  Buttons,
+  Button1,
   CurrentDescriptionLine,
-  CurrentButton
+  CurrentButton,
+  Button2
 } from './currProduce.elements'
 
 const currProduce = () => {
@@ -35,10 +36,12 @@ const currProduce = () => {
           <CurrentTopic>Temperature</CurrentTopic>
         </CurrentDescriptionRow>
       </CurrentDescription>
-      <Buttons>
+      <Button1>
         <CurrentButton>Add to Garden</CurrentButton>
-        <CurrentButton>Forum</CurrentButton>
-      </Buttons>
+      </Button1>
+      <Button2>
+        <CurrentButton>See Forums</CurrentButton>
+      </Button2>
     </Current>
   )
 }

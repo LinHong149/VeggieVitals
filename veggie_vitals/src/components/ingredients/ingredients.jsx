@@ -3,7 +3,7 @@ import Potato from "../../assets/Potato.png"
 import onion from "../../assets/onion.png"
 import artichoke from "../../assets/artichoke.png"
 import mushroom from "../../assets/mushroom.png"
-import avocado from "../../assets/avocado.png"
+import pepper from "../../assets/pepper.png"
 import asparagus from "../../assets/asparagus.png"
 import broccoli from "../../assets/broccoli.png"
 import tomato from "../../assets/tomato.png"
@@ -25,8 +25,8 @@ const ingredients = () => {
         <Text>POTAAAAAAATO</Text>
         </Sub>
         <Sub>
-          <Image src={avocado} alt=""/>
-          <Text>FRESHAVACADO</Text>
+          <Image src={pepper} alt=""/>
+          <Text>SATAN</Text>
         </Sub>
       </SubContainer>
       <SubContainer>
