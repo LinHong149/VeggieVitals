@@ -19,7 +19,7 @@ const currProduce = () => {
   return (
     <Current>
       <CurrentImage src={Potato} alt="" />
-      <CurrentName>PotAAAto</CurrentName>
+      <CurrentName>Potato</CurrentName>
       <CurrentDescription>
         <CurrentDescriptionRow>
           <CurrentTopic>Temperature</CurrentTopic>

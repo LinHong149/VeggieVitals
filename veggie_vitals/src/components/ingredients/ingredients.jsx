@@ -21,42 +21,42 @@ const ingredients = () => {
     <Container> 
       <SubContainer>
         <Sub>
-        <Image src={Potato} alt=""/>
-        <Text>POTAAAAAAATO</Text>
+          <Image src={Potato} alt=""/>
+          <Text>Potato</Text>
         </Sub>
         <Sub>
           <Image src={pepper} alt=""/>
-          <Text>SATAN</Text>
+          <Text>Red Pepper</Text>
         </Sub>
       </SubContainer>
       <SubContainer>
         <Sub>
-        <Image src={artichoke} alt=""/>
-        <Text>CHOKE</Text>
+          <Image src={artichoke} alt=""/>
+          <Text>Artichoke</Text>
         </Sub>
         <Sub>
           <Image src={mushroom} alt=""/>
-          <Text>SHROOOOMS</Text>
+          <Text>Mushroom</Text>
         </Sub>
       </SubContainer>
       <SubContainer>
         <Sub>
-        <Image src={onion} alt=""/>
-        <Text>ONIOOONNNN</Text>
+          <Image src={onion} alt=""/>
+          <Text>Onion</Text>
         </Sub>
         <Sub>
           <Image src={asparagus} alt=""/>
-          <Text>SPRAGUSS</Text>
+          <Text>Asparagus</Text>
         </Sub>
       </SubContainer>
       <SubContainer>
         <Sub>
-        <Image src={broccoli} alt=""/>
-        <Text>TREEEE</Text>
+          <Image src={broccoli} alt=""/>
+          <Text>Tree</Text>
         </Sub>
         <Sub>
-          <Image src={tomato} alt=""/>
-          <Text>TOESSSS</Text>
+            <Image src={tomato} alt=""/>
+            <Text>Tomato</Text>
         </Sub>
       </SubContainer>
     </Container>

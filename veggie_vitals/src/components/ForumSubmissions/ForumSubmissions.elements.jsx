@@ -78,11 +78,11 @@ export const ForumButton = styled.button`
     padding: 10px;
     `
     
-    export const SearchFilters = styled.button`
-        word-wrap: none;
-        width: max-content;
-        margin-left: 88vw;
-        padding: 10px;
+export const SearchFilters = styled.button`
+    word-wrap: none;
+    width: max-content;
+    margin-left: 88vw;
+    padding: 10px;
 `
 export const Container3 = styled.div`
     // height: 100px;

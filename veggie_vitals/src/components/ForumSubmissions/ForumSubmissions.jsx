@@ -1,3 +1,4 @@
+import React from 'react'
 import pfp_potato from "../../assets/pfp_potato.png"
 import pfp_woman from "../../assets/pfp_woman.png"
 import pfp_man from "../../assets/pfp_man.png"
@@ -20,15 +21,15 @@ import {
 
 
 const ForumSubmissions = () => {
-    return(
+    return( 
         <Root>   
-            <ForumButton href="">Add to Forum</ForumButton>
+            <ForumButton>Add to Forum</ForumButton>
             <Border>
                 <Profile>
                     <Image src={pfp_potato} alt=""/>
                     <Container3>
                         <Name>Sir Potaaaatos</Name>
-                        <Discription>I love potaaaaaaatos!!</Discription>
+                        <Discription>My potatoes keep on dying does anyone know why?? :C</Discription>
                     </Container3>
                 </Profile>
             </Border>
@@ -36,8 +37,8 @@ const ForumSubmissions = () => {
                 <Profile>
                 <Image2 src={pfp_woman} alt=""/>
                 <Container>
-                        <Name>Swag Lady</Name>
-                        <Discription>I really want some FreshAvacado.</Discription>
+                        <Name>Alice</Name>
+                        <Discription>Does anyone know how to grow cherries, mine never sprout.</Discription>
                 </Container>
                 </Profile>
                 </Border>
@@ -45,8 +46,8 @@ const ForumSubmissions = () => {
                 <Profile>
                 <Image2 src={pfp_man} alt=""/>
                 <Container>
-                        <Name>Sigma Chad</Name>
-                        <Discription>Protein.</Discription>
+                        <Name>Tyler</Name>
+                        <Discription>Does potatoes and pepper go well toghether or potatoes and mushrooms?</Discription>
                 </Container>
                 </Profile>
                 </Border>
@@ -55,7 +56,7 @@ const ForumSubmissions = () => {
                 <Image2 src={brocco_bama} alt=""/>
                 <Container>
                         <Name>Brocco Bama</Name>
-                        <Discription>ChatGPT isn't giving me anything funny.</Discription>
+                        <Discription>What temperature should I be cooking my broccoli at? Mine keeps on burning.</Discription>
                 </Container>
                 </Profile>
                 </Border>

@@ -62,7 +62,7 @@ export const CurrentDescriptionLine = styled.hr`
 export const Button1 = styled.div`
     width: 28vw;
     display: flex;
-    gap: 30px;
+    //gap: 30px;
     max-height: 100px;
     height: 8vh;
     position: absolute;
@@ -72,7 +72,7 @@ export const Button1 = styled.div`
 export const Button2 = styled.div`
     width: 40;
     display: flex;
-    gap: 30px;
+    //gap: 30px;
     max-height: 100px;
     height: 8vh;
     position: absolute;
