@@ -59,14 +59,25 @@ export const CurrentDescriptionLine = styled.hr`
 
 `
 
-export const Buttons = styled.div`
-    width: 36vw;
+export const Button1 = styled.div`
+    width: 28vw;
     display: flex;
     gap: 30px;
     max-height: 100px;
     height: 8vh;
     position: absolute;
     bottom: 30px;
+    padding-right: 135px;
+`
+export const Button2 = styled.div`
+    width: 40;
+    display: flex;
+    gap: 30px;
+    max-height: 100px;
+    height: 8vh;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 440px;
 `
 
 export const CurrentButton = styled.button`
