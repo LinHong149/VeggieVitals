@@ -16,7 +16,7 @@ import {
   Button1,
   CurrentDescriptionLine,
   CurrentButton,
-  Button2,
+  Button2
 } from './currProduce.elements'
 
 function PotatoFunction(){

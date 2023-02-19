@@ -50,3 +50,12 @@ export const ForumLink = styled(Link)`
     height: min-content;
     margin: 0;
 `
+
+export const Image = styled.img`
+    object-fit: scale-down;
+    flex: 1 1 1;
+    width: 40px;  
+    height: 50px;
+    // padding-left: 10px;
+    height: 35%;
+`
