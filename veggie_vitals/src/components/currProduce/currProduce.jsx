@@ -40,7 +40,7 @@ const currProduce = () => {
         <CurrentButton>Add to Garden</CurrentButton>
       </Button1>
       <Button2>
-        <CurrentButton>See Forums</CurrentButton>
+        <CurrentButton>Forums</CurrentButton>
       </Button2>
     </Current>
   )

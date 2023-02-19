@@ -14,7 +14,8 @@ import {
     Profile,
     ForumButton,
     Container,
-    Image2
+    Image2,
+    SearchFilters
 } from './ForumSubmissions.elements'
 
 

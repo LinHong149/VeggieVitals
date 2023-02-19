@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Root = styled.div`
-    // border: 1px solid black;
+    //border: 1px solid black;
     margin: 0 auto;
     // margin-top: 10vh;
     display: flex;
@@ -15,7 +15,9 @@ export const Border = styled.div`
     padding: 30px;
     box-sizing: border-box;
     width: 100%;
-    border: 2px solid white;
+    //border: 2px solid white;
+    background-color: #7c5457;
+    border-radius: 10px;
     max-width: 1400px;
     display: flex;
     justify-items: space-between;
@@ -74,6 +76,13 @@ export const ForumButton = styled.button`
     width: max-content;
     margin-left: 88vw;
     padding: 10px;
+    `
+    
+    export const SearchFilters = styled.button`
+        word-wrap: none;
+        width: max-content;
+        margin-left: 88vw;
+        padding: 10px;
 `
 export const Container3 = styled.div`
     // height: 100px;
