@@ -33,7 +33,7 @@ export default class garden extends React.Component {
                     <Produce>
                         <ProduceName>Potato</ProduceName>
                         <Actions>
-                            <Forum>Forum</Forum>
+                            <Forum to='VeggieVitals/forum' >Forum</Forum>
                             <Delete onClick={() => this.setState({selected1: 2})} ><CgClose style={{justifyContent: 'center'}}/></Delete>
                         </Actions>
                     </Produce>
