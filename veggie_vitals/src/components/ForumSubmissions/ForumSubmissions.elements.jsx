@@ -8,43 +8,43 @@ export const Root = styled.div`
     flex-direction: column;
     gap: 20px;
     margin-top: 10vh;
+    height: 130vh;
 `
 
 export const Border = styled.div`
     padding: 30px;
     box-sizing: border-box;
-    height: def-content;
     width: 100%;
     border: 2px solid white;
     max-width: 1400px;
     display: flex;
     justify-items: space-between;
     align-self: center;
-
-    padding: 30px;
-    box-sizing: border-box;
-    height: def-content;
-    width: 100%;
-    border: 2px solid white;
-    max-width: 1400px;
-    display: flex;
-    justify-items: space-between;
-    align-self: center;
+    margin-bottom: 20px;
     `
 
 export const Profile = styled.div`
     // border: 1px solid black;
     display: flex;
-    padding: 20px;
+    padding: 0px;
     align-items: start;
     width: 100%;
     height: fit-content;
-    gap: 20px;
+    gap: 50px;
 `
 
 export const Container = styled.div`
-    height: auto;
+    // border: 1px solid black;
     display: flex;
+    padding: 10px;
+    align-items: start;
+    width: 100%;
+    height: fit-content;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: min-content;
 `
     
 export const SideBar = styled.div`
@@ -60,15 +60,23 @@ export const Image = styled.img`
     // padding-left: 10px;
     height: 35%;
 `
+export const Image2 = styled.img`
+    object-fit: scale-down;
+    flex: 1 1 1;
+    width: 100px;  
+    height: 100px;
+    // padding-left: 10px;
+    height: 100%;
+`
+
 export const ForumButton = styled.button`
     word-wrap: none;
     width: max-content;
     margin-left: 88vw;
     padding: 10px;
 `
-
 export const Container3 = styled.div`
-    // height: 80px;
+    // height: 100px;
     // padding: 15px;
     // align-self: right;
     display: flex;

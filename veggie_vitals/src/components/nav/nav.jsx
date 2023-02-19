@@ -1,5 +1,6 @@
 import React from 'react'
 import VeggieVitals from "../../assets/VeggieVitals.png"
+import pfp_small from "../../assets/pfp_small.png"
 
 import {
     Nav,
@@ -7,7 +8,8 @@ import {
     Language,
     Container,
     SocialsLink,
-    ForumLink
+    ForumLink,
+    Image
 } from './nav.elements'
 
 const nav = () => {
@@ -17,6 +19,7 @@ const nav = () => {
         <Container>
             <Language>Language</Language>
             <ForumLink to="/forum">Forum</ForumLink>
+            <Image src={pfp_small} alt=""/>
         </Container>
     </Nav>
   )
