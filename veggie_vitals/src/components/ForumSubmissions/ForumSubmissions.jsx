@@ -7,24 +7,26 @@ import {
     Border,
     Sub,
     Image,
+    Container3,
+    ForumButton
 } from './ForumSubmissions.elements'
 
 
 const ForumSubmissions = () => {
     return(
-        <Border>
-            <Container>
-                <button href="">Add to Forum</button>
-            </Container>
-            <Sub>
-            <Image src={pfp_potato} alt=""/>
-            </Sub>
-            <Container2>
-                <ForumBox>
-                <p>HI</p>
-                </ForumBox>
-            </Container2>
-        </Border>
+        <div>   
+            <ForumButton href="">Add to Forum</ForumButton>
+            <Border>
+                <Container>
+                <Image src={pfp_potato} alt=""/>
+                </Container>
+                <Container3>
+                    <ForumBox>
+                    <p>HI</p>
+                    </ForumBox>
+                </Container3>
+            </Border>
+        </div>
     )
 }
 export default ForumSubmissions
