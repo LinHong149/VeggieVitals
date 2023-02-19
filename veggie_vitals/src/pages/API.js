@@ -8,7 +8,7 @@ const API = () => {
     
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
-    myHeaders.append("Authorization", "Bearer tok_dev_vCDxZcNBWH1V17xMV9UKtKeNj35yAYraS9ZPk7oC1sx4aqbswvt9JYbcx79wmBaF");
+    myHeaders.append("Authorization", "Bearer tok_dev_3BBqD5NQ38RWof44nt2SP9jj8gFKVA4K6T5FDaVG7HoaZdkNm97y28ZWvJMhMXGK");
     
     var raw = JSON.stringify({
       "name": "world"
@@ -21,7 +21,7 @@ const API = () => {
       redirect: 'follow'
     };
     
-    fetch("https://steph-and-ee.autocode.dev/veggie-vitals@dev/", requestOptions)
+    fetch("https://kvthleenhe.autocode.dev/veggievitals@dev/", requestOptions)
       .then(response => response.text())
       .then(result => {return result})
       .catch(error => {return error});
