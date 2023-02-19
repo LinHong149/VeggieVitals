@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VeggieVitals/static/css/main.33c57361.css",
-    "main.js": "/VeggieVitals/static/js/main.685294e6.js",
+    "main.js": "/VeggieVitals/static/js/main.8727e36d.js",
     "static/js/787.1890c94b.chunk.js": "/VeggieVitals/static/js/787.1890c94b.chunk.js",
     "static/media/tomato.png": "/VeggieVitals/static/media/tomato.1875333b15480a58f4cf.png",
     "static/media/Potato.png": "/VeggieVitals/static/media/Potato.dbfb497448439ff85742.png",
@@ -14,11 +14,11 @@
     "static/media/VeggieVitals.png": "/VeggieVitals/static/media/VeggieVitals.655e3cebd890f5de8993.png",
     "index.html": "/VeggieVitals/index.html",
     "main.33c57361.css.map": "/VeggieVitals/static/css/main.33c57361.css.map",
-    "main.685294e6.js.map": "/VeggieVitals/static/js/main.685294e6.js.map",
+    "main.8727e36d.js.map": "/VeggieVitals/static/js/main.8727e36d.js.map",
     "787.1890c94b.chunk.js.map": "/VeggieVitals/static/js/787.1890c94b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33c57361.css",
-    "static/js/main.685294e6.js"
+    "static/js/main.8727e36d.js"
   ]
 }
