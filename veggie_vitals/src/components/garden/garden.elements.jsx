@@ -32,7 +32,7 @@ export const ProduceList = styled.div`
 export const Produce = styled.div`
     // border: 1px solid blue;
     width: 100%;
-    // display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
