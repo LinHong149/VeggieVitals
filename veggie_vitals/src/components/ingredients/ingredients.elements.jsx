@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     height: 90vh;
     width: 30vw;
+    overflow: scroll;
     // border: 1px solid green;
     justify-self: right;
     display: flex;
@@ -14,9 +15,10 @@ export const Container = styled.div`
 export const SubContainer = styled.div`
     // border: 1px solid red;
     width: 100%;
-    height: 25%;
+    height: fit-content%;
     box-sizing: border-box;
     display: flex;
+    flex-wrap: wrap;
 `
 
 
@@ -26,6 +28,7 @@ export const Sub = styled.div`
     // padding: 20px;
     flex: 1 1;
     display: flex;
+    min-width: 120px;
     width: 50%;
     flex-direction: column;
     padding: 10px;

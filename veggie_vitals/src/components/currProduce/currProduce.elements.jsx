@@ -59,30 +59,31 @@ export const CurrentDescriptionLine = styled.hr`
 
 `
 
-export const Button1 = styled.div`
-    width: 28vw;
+export const Buttons = styled.div`
+    width: 36vw;
     display: flex;
-    //gap: 30px;
+    gap: 20px;
     max-height: 100px;
     height: 8vh;
     position: absolute;
     bottom: 30px;
-    padding-right: 135px;
-`
-export const Button2 = styled.div`
-    width: 40;
-    display: flex;
-    //gap: 30px;
-    max-height: 100px;
-    height: 8vh;
-    position: absolute;
-    bottom: 30px;
-    padding-left: 440px;
 `
 
-export const CurrentButton = styled.button`
-    width: 50%;
+export const GardenButton = styled.button`
+    flex: 4 1;
+    padding: 0 20px;
+    background-color: #A2B884;
+    border: none;
+    border-radius: 15px;
+    color: #261B1C;
+    max-height: 100px;
+    height: 8vh;
+    font-size: 1.2rem;
+`
+
+export const ForumButton = styled.button`
     flex: 1 1;
+    padding: 0 20px;
     background-color: #A2B884;
     border: none;
     border-radius: 15px;

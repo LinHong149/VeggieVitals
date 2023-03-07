@@ -13,10 +13,10 @@ import {
   CurrentDescriptionRow,
   CurrentTopic,
   CurrentStats,
-  Button1,
+  Buttons,
   CurrentDescriptionLine,
-  CurrentButton,
-  Button2
+  GardenButton,
+  ForumButton
 } from './currProduce.elements'
 
 function PotatoFunction(){
@@ -43,12 +43,10 @@ const currProduce = () => {
           <CurrentTopic><FaThermometerHalf /> 16-19℃</CurrentTopic>
         </CurrentDescriptionRow>
       </CurrentDescription>
-      <Button1>
-        <CurrentButton>Add to Garden</CurrentButton>
-      </Button1>
-      <Button2>
-        <CurrentButton>Forums</CurrentButton>
-      </Button2>
+      <Buttons>
+        <GardenButton>Add to Garden</GardenButton>
+        <ForumButton>Forums</ForumButton>
+      </Buttons>
     </Current>
   )
 }
