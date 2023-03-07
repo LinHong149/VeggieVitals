@@ -1,5 +1,9 @@
 import React from 'react'
 import Potato from '../../assets/Potato.png'
+import { TbShovel } from 'react-icons/tb';
+import { FaThermometerHalf } from 'react-icons/fa';
+import { GiWaterDrop } from 'react-icons/gi';
+import { BsFillSunFill } from 'react-icons/bs';
 
 import {
   Current,
@@ -15,6 +19,10 @@ import {
   Button2
 } from './currProduce.elements'
 
+function PotatoFunction(){
+  <Potato to="/forum">Forum</Potato>
+}
+
 const currProduce = () => {
   return (
     <Current>
@@ -22,18 +30,17 @@ const currProduce = () => {
       <CurrentName>Potato</CurrentName>
       <CurrentDescription>
         <CurrentDescriptionRow>
-          <CurrentTopic>Temperature</CurrentTopic>
-          <CurrentTopic>Temperature</CurrentTopic>
+          <CurrentTopic><TbShovel /> well-drained, sandy soil with a pH of 6.0-6.5</CurrentTopic>
         </CurrentDescriptionRow>
         <CurrentDescriptionLine />
         <CurrentDescriptionRow>
-          <CurrentTopic>Temperature</CurrentTopic>
-          <CurrentTopic>Temperature</CurrentTopic>
+          <CurrentTopic><GiWaterDrop /> 1-2 inches a week</CurrentTopic>
+          <CurrentTopic><BsFillSunFill /> 6 hours a day</CurrentTopic>
         </CurrentDescriptionRow>
         <CurrentDescriptionLine />
         <CurrentDescriptionRow>
-          <CurrentTopic>Temperature</CurrentTopic>
-          <CurrentTopic>Temperature</CurrentTopic>
+          <CurrentTopic>Harvest Time: 90 days</CurrentTopic>
+          <CurrentTopic><FaThermometerHalf /> 16-19℃</CurrentTopic>
         </CurrentDescriptionRow>
       </CurrentDescription>
       <Button1>

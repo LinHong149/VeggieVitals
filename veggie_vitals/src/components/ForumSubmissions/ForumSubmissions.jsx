@@ -22,7 +22,7 @@ import {
 
 const ForumSubmissions = () => {
     return( 
-        <Root>   
+        <Root>
             <ForumButton>Add to Forum</ForumButton>
             <Border>
                 <Profile>

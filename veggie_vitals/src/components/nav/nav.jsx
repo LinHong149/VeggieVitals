@@ -18,7 +18,7 @@ const nav = () => {
         <Logo src={VeggieVitals} alt="" />
         <Container>
             <Language>Language</Language>
-            <ForumLink to="/forum">Forum</ForumLink>
+            <ForumLink to="/VeggieVitals/forum">Forum</ForumLink>
             <Image src={pfp_small} alt=""/>
         </Container>
     </Nav>
